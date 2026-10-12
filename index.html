@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acordes Spinetteanos · Recursos armónicos de Luis Alberto Spinetta</title>
+<meta name="description" content="Ensayo interactivo sobre ambigüedad armónica, extensiones, armonía no funcional y disposiciones cuartales en la música de Luis Alberto Spinetta.">
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#universo">Saltar al contenido</a>
+
+<header class="top">
+  <a class="brand" href="#inicio">Acordes Spinetteanos</a>
+  <nav aria-label="Secciones">
+    <a href="#universo">El universo</a>
+    <a href="#lenguaje">El lenguaje armónico</a>
+    <a href="#explorador">Explorador de acordes</a>
+    <a href="#escucha">Escucha y análisis</a>
+    <a href="#laboratorio">Laboratorio</a>
+    <a href="#fuentes">Fuentes</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero grid" aria-labelledby="titulo">
+  <p class="colophon">Ensayo interactivo sobre armonía y guitarra<br>Basado en el trabajo de Aníbal E. Colli, 2019</p>
+  <h1 id="titulo"><span class="line"><span>Acordes</span></span><span class="line"><span>Spinetteanos</span></span></h1>
+  <p class="lede">Hay acordes que no terminan de decir lo que parecen decir.</p>
+  <svg class="strings" viewBox="0 0 420 300" role="img" aria-label="Seis cuerdas de guitarra con cuatro puntos que marcan un acorde ambiguo">
+    <g class="s-lines" stroke="currentColor" fill="none">
+      <path d="M20 40H400"/><path d="M20 80H400"/><path d="M20 120H400"/><path d="M20 160H400"/><path d="M20 200H400"/><path d="M20 240H400"/>
+    </g>
+    <g class="s-frets" stroke="currentColor" fill="none">
+      <path d="M20 30V250" class="nut"/><path d="M130 30V250"/><path d="M230 30V250"/><path d="M320 30V250"/><path d="M400 30V250"/>
+    </g>
+    <g class="s-dots">
+      <circle cx="180" cy="120" r="12"/><circle cx="275" cy="160" r="12"/><circle cx="180" cy="200" r="12"/><circle cx="360" cy="80" r="12" class="ghost"/>
+    </g>
+  </svg>
+  <a class="scroll" href="#universo">Seguir leyendo</a>
+</section>
+
+<section id="universo" class="universe grid" aria-labelledby="h-universo">
+  <h2 id="h-universo" class="sec-title"><span class="num">I</span>Una armonía que se resiste a la fórmula</h2>
+  <p class="intro reveal">El lenguaje armónico de Luis Alberto Spinetta no cabe en una lista de acordes mágicos. Lo que ofrece el análisis académico es otra cosa: un conjunto de recursos que se pueden observar, nombrar y probar. Aquí aparecen separados en cuatro anotaciones.</p>
+  <article class="note n1 reveal">
+    <h3>Ambigüedad</h3>
+    <p>Un mismo conjunto de notas admite más de una lectura. El bajo, el contexto y la melodía deciden cuál domina.</p>
+    <p class="mono">A E G C E<span>Am7 o C/A</span></p>
+  </article>
+  <article class="note n2 reveal">
+    <h3>Extensiones</h3>
+    <p>Séptimas, novenas, oncenas y trecenas añaden color sobre la tríada y desdibujan su carácter.</p>
+    <p class="mono">1 3 5 7 9<span>la novena es color, no tensión</span></p>
+  </article>
+  <article class="note n3 reveal">
+    <h3>Armonía no funcional</h3>
+    <p>Cuando los acordes dejan de cumplir roles de tónica, subdominante y dominante, las cadencias pierden fuerza.</p>
+    <p class="mono">I – V – I<span>la fórmula que se debilita</span></p>
+  </article>
+  <article class="note n4 reveal">
+    <h3>Lógica espacial</h3>
+    <p>La guitarra organiza el sonido por formas de la mano. Las posiciones sugieren relaciones que la teoría escrita no muestra de inmediato.</p>
+    <p class="mono">E A D G B E<span>afinación estándar</span></p>
+  </article>
+</section>
+
+<section id="lenguaje" class="language grid" aria-labelledby="h-lenguaje">
+  <h2 id="h-lenguaje" class="sec-title"><span class="num">II</span>El lenguaje armónico</h2>
+  <p class="intro reveal">Cada recurso se presenta con una explicación general, una forma de verlo y una pista de escucha. Los ejemplos de acordes son pedagógicos: ilustran la idea, no reproducen la digitación de ninguna canción. Los análisis de obras concretas están en el trabajo de Colli (ver fuentes).</p>
+  <ol class="resources">
+    <li class="res reveal">
+      <h3>Acordes extendidos</h3>
+      <p class="tag">Concepto general</p>
+      <p>Se apilan terceras sobre la tríada: séptima, novena, oncena, trecena. Cuantas más notas, más posibilidades de lectura.</p>
+      <p class="mono stack">T 3 5 7 9 11 13</p>
+      <p class="hear">Escuchar: qué nota nueva cambia el color sin cambiar la raíz.</p>
+    </li>
+    <li class="res reveal">
+      <h3>Ambigüedad armónica</h3>
+      <p class="tag">Interpretación analítica</p>
+      <p>Una estructura puede leerse como acordes distintos. Colli estudia este fenómeno como recurso central; lo que sigue es la idea, no un caso atribuido.</p>
+      <p class="mono stack">Em7 = G6 con E en el bajo</p>
+      <p class="hear">Escuchar: si el bajo sostiene una raíz distinta a la que sugieren las notas agudas.</p>
+    </li>
+    <li class="res reveal">
+      <h3>Desfuncionalización</h3>
+      <p class="tag">Concepto general</p>
+      <p>Los acordes se encadenan por color, movimiento de voces o forma de la mano en lugar de seguir cadencias convencionales.</p>
+      <p class="mono stack">resolución evitada</p>
+      <p class="hear">Escuchar: dónde esperas que llegue la música y no llega.</p>
+    </li>
+    <li class="res reveal">
+      <h3>Intercambio modal y cromatismo</h3>
+      <p class="tag">Concepto general</p>
+      <p>Un acorde se toma prestado de un modo vecino, o una línea avanza por semitonos. Ambos recursos ensanchan el mapa tonal.</p>
+      <p class="mono stack">C – Fm: el bVI y el iv del modo menor</p>
+      <p class="hear">Escuchar: un acorde que no pertenece a la escala pero suena natural.</p>
+    </li>
+    <li class="res reveal">
+      <h3>Disposiciones cuartales</h3>
+      <p class="tag">Concepto general</p>
+      <p>Las notas se apilan por cuartas en lugar de terceras. En la guitarra, la afinación hace que estas formas sean cómodas y recurrentes.</p>
+      <p class="mono stack">A – D – G – C</p>
+      <p class="hear">Escuchar: la sensación de apertura, sin un centro claro.</p>
+    </li>
+  </ol>
+</section>
+
+<section id="explorador" class="explorer grid" aria-labelledby="h-explorador">
+  <h2 id="h-explorador" class="sec-title"><span class="num">III</span>Explorador de acordes</h2>
+  <p class="intro">Todos los acordes son ejemplos pedagógicos en afinación estándar. No son digitaciones históricas de Spinetta. Los tonos sintetizados son una referencia, no una guitarra real.</p>
+  <div class="picker">
+    <div role="group" aria-label="Elegir acorde" id="chord-buttons"></div>
+    <label class="cmp">Comparar con
+      <select id="compare-select"><option value="">Ninguno</option></select>
+    </label>
+    <button type="button" id="reset" class="plain">Reiniciar</button>
+  </div>
+  <div class="stage" id="stage" aria-live="polite">
+    <p class="empty" id="empty">Elige un acorde para ver su diagrama, sus notas y sus lecturas.</p>
+    <div class="panels" id="panels"></div>
+  </div>
+</section>
+
+<section id="escucha" class="listen grid" aria-labelledby="h-escucha">
+  <h2 id="h-escucha" class="sec-title"><span class="num">IV</span>Escuchar de otra manera</h2>
+  <div class="questions">
+    <p class="reveal">¿Dónde parece descansar la armonía?</p>
+    <p class="reveal">¿Qué notas añaden color al acorde?</p>
+    <p class="reveal">¿Qué pasa cuando el bajo y las notas superiores sugieren centros distintos?</p>
+    <p class="reveal">¿Qué cambia cuando una progresión evita la resolución esperada?</p>
+  </div>
+  <div class="exercise reveal">
+    <h3>Ejercicio de escucha</h3>
+    <ol>
+      <li>Elige una canción de Spinetta que ya conozcas y escucha solo el bajo durante una pasada.</li>
+      <li>Canta la nota más grave de cada acorde y anótala.</li>
+      <li>Escucha de nuevo la voz o la melodía y marca qué notas coinciden con el bajo y cuáles no.</li>
+      <li>Pregúntate si la melodía confirma la raíz del bajo o la pone en duda.</li>
+    </ol>
+    <p class="note-small">No se incluyen letras ni grabaciones. Busca las canciones por tu cuenta y contrasta lo que oyes con Colli (2019).</p>
+  </div>
+</section>
+
+<section id="laboratorio" class="lab grid" aria-labelledby="h-lab">
+  <h2 id="h-lab" class="sec-title"><span class="num">V</span>Laboratorio de composición</h2>
+  <p class="intro">Mismas cuerdas intermedias, tres bajos posibles y tres notas agudas. Cambia una pieza y observa cómo se mueve la lectura.</p>
+  <form class="controls" onsubmit="return false">
+    <fieldset>
+      <legend>Bajo</legend>
+      <label><input type="radio" name="bass" value="A" checked> La</label>
+      <label><input type="radio" name="bass" value="C"> Do</label>
+      <label><input type="radio" name="bass" value="E"> Mi</label>
+    </fieldset>
+    <fieldset>
+      <legend>Nota aguda (cuerda 2)</legend>
+      <label><input type="radio" name="top" value="1" checked> Do</label>
+      <label><input type="radio" name="top" value="0"> Si</label>
+      <label><input type="radio" name="top" value="3"> Re</label>
+    </fieldset>
+  </form>
+  <div class="lab-out" id="lab-out" aria-live="polite"></div>
+</section>
+
+<section id="fuentes" class="sources grid" aria-labelledby="h-fuentes">
+  <h2 id="h-fuentes" class="sec-title"><span class="num">VI</span>Fuentes</h2>
+  <ul class="refs">
+    <li>Colli, A. E. (2019). <cite>Recursos spinetteanos: Acordes ambiguos y armonía no funcional en L. A. Spinetta</cite>. Universidad Nacional de La Plata. <a href="https://sedici.unlp.edu.ar/handle/10915/158949" rel="noopener">SEDICI</a></li>
+    <li><cite>La modernidad en el rock argentino: la música de L. A. Spinetta</cite>. Revista del Instituto Superior de Música, Universidad Nacional del Litoral. <a href="https://portal.amelica.org/ameli/journal/645/6454961002/movil/" rel="noopener">Amelica</a></li>
+  </ul>
+  <p class="caveat">Esta página explica ideas generales y propone ejercicios. Los diagramas son ilustrativos y las lecturas son interpretaciones posibles, no afirmaciones sobre canciones concretas.</p>
+  <p class="closing">Un acorde puede quedar abierto y seguir diciendo algo.</p>
+</section>
+</main>
+</body>
+</html>
